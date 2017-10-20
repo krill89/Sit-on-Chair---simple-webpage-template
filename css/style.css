@@ -1,0 +1,381 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+}
+.logo p span {
+  color: #26C4A9;
+  font-weight: 400;
+}
+.slider-container {
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(160,160,160,1) 100%);
+  height: 500px;
+}
+.gallery-container {
+  height: 400px;
+  width: 100%;
+}
+.pricing-container {
+  width: 100%;
+  height: 700px;
+  background-color: #f1f1f1;
+}
+.section-container {
+  max-width: 1200px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-section-container {
+width: 100%;
+height: 500px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+font-family: 'Open Sans', sans-serif;
+color: white;
+text-transform: uppercase;
+}
+.logo p {
+line-height: 50px;
+}
+.menu {
+}
+.menu a {
+  padding-left: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+.about-drop {
+  align-items: center;
+}
+.about-menu {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding: 10px;
+  margin: auto;
+}
+.gallery-drop {
+  align-items: center;
+}
+.gallery-menu {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding: 10px;
+}
+.news-drop {
+  align-items: center;
+}
+.news-menu {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding: 10px;
+}
+.hidden {
+  display: none;
+}
+.chair-container {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.chair-img {
+width: 300px;
+height: 300px;
+margin: auto;
+}
+
+.chair-slider-text  {
+  margin: auto;
+  margin-top: 50px;
+  height: 70%;
+  width: 40%;
+}
+
+.chair-slider-text h1 span {
+  color: #26C4A9;
+  font-weight: 400;
+}
+
+.chair-slider-text p {
+  margin-top: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
+.chair-slider-text h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.chair-slider-button {
+  background-color:  #26C4A9;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.gallery-window-container {
+  width: 350px;
+  height: 280px;
+  margin: auto;
+  border: 1px solid #f1f1f1;
+}
+.gal1 {
+  background-image: url("../images/box1_img.jpg");
+  background-size: cover;
+}
+.gal2 {
+  background-image: url("../images/box2_img.jpg");
+  background-size: cover;
+}
+.gallery-window-stripe {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  margin-top: 140px;
+  opacity: 0.5;
+}
+.gallery-window-stripe h2 {
+  font-size: 20px;
+  opacity: 1;
+  line-height: 50px;
+  margin-top: 20px;
+  width: 70%;
+  margin-left: 20px;
+  border-bottom: 3px solid #26C4A9;
+}
+.gal3 h2 {
+  font-size: 20px;
+  opacity: 1;
+  line-height: 50px;
+  margin-top: 20px;
+  width: 70%;
+  margin-left: 20px;
+  border-bottom: 3px solid #26C4A9;
+}
+.gal3 p {
+margin: auto;
+width: 80%;
+margin-top: 20px;
+}
+
+.price-ticket-container {
+  height: 600px;
+  width: 350px;
+  margin: auto;
+  position: relative;
+}
+.price-ticket {
+  margin-top: 10%;
+  height: 90%;
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #c2c2c2;
+  position: relative;
+}
+.price-ticket h2 {
+  margin-top: 30%;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.price-ticket-round {
+  background-color: #f9f9f9;
+  border: 1px solid #c2c2c2;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  margin-left: calc(50% - 50px);
+  position: absolute;
+  z-index: 5;
+
+}
+.price-ticket-round div{
+  position: absolute;
+  background-color: #c2c2c2;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  left: 25px;
+  top: 25px;
+
+}
+.price-round-frame {
+  border: 1px solid #c2c2c2;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+}
+.ticket-price-short {
+  font-size: 30px;
+  position: absolute;
+  right: 25%;
+  top: 25%;
+}
+.price-round-frame h3 sup {
+font-size: 15px;
+}
+.ticket-price-long {
+  font-size: 30px;
+  position: absolute;
+  right: 20%;
+  top: 25%;
+}
+.ticket-services-container {
+  margin-top: 20px;
+  height: 170px;
+}
+.ticket-services-container h3:nth-child(1) {
+  background-color: #e4e4e4;
+}
+.ticket-services-container h3:nth-child(2) {
+  background-color: #f1f1f1;
+}
+.ticket-services-container h3:nth-child(3) {
+  background-color: #e4e4e4;
+}
+.ticket-services-container h3:nth-child(4) {
+  background-color: #f1f1f1;
+}
+.ticket-services-container h3 {
+  line-height: 40px;
+  text-align: center;
+}
+.price-ticket-button {
+  background-color: #27c7ab;
+  width: 50%;
+  text-align: center;
+  padding: 12px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  margin: auto;
+}
+.forms-container {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.form-name, .form-mail {
+height: 40px;
+margin-bottom: 20px;
+}
+
+.form-msg {
+height: 120px;
+}
+.submit-container {
+  margin: auto;
+  width: 50%;
+}
+.submit-container img{
+margin-left: 30%;
+}
+.submit-button {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #24ba9f;
+}
+.submit-checkbox {
+  width: 60%;
+  margin: auto;
+}
+.checkbox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightgrey;
+  display: inline-block;
+  margin-right: 10%;
+  margin-top: 30px;
+  background-image: url("../images/form_ok.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.checkbox-paragraph {
+width: 200px;
+height: 50%;
+display: inline-block;
+line-height: 30px;
+margin-bottom: 40px;
+}
+.calc-container {
+  background-color: #f1f1f1;
+  height: 400px;
+}
+.visible {
+  display: block;
+}
+.section-flex {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.section-flex select{
+height: 50px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.calc-img {
+margin: auto;
+}
+.calc-form-container {
+  height: 90%;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.yourchair-calc {
+  width: 50%;
+  height: 60%;
+  border-right: 1px solid grey;
+}
+.yourprice-calc {
+  width: 50%;
+  height: 60%;
+}
+.yoursum-calc {
+  width:70%;
+  height: 30%;
+  margin-left: 0px;
+}
